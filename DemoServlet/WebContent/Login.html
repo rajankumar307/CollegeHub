@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS forms</title>
+    <style type="text/css">
+      body{
+        font-family: "Helvetica Neve",sans-serif;
+        background-image: url("http://backgroundcheckall.com/wp-content/uploads/2017/12/background-images-for-login-form-8.jpg");
+
+      }
+      .form_section{
+               margin-left: 500px;
+               border:2px solid darkcyan;
+               width: 300px;
+               float: left;
+               text-align: center;
+               border-radius: 7px;
+               background-image: url("data:image/jpeg;base64,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");
+               background-position: center;
+    
+       }
+      h3{
+        color: white;
+        font-size: 30px;
+
+      }
+      input[type="text"],input[type="password"]{
+        height: 50px;
+        margin: 15px;
+        text-align: center;
+        font-size: 20px;
+        border: 2px solid darkcyan;
+        border-radius: 7px;
+      }
+      input[type="submit"],input[type="reset"]{
+        background-color: darkcyan;
+        color: white;
+        border: none;
+        padding: 14px 32px;
+        font-size: 20px;
+        margin: 15px;
+        
+        border-radius: 7px;
+      }
+      input[type="submit"]:hover
+      {
+        cursor: pointer;
+        background-color: #225252;,
+        box-shadow: 5px 5px 5px cyan;
+        color: black;
+      }
+       input[type="reset"]:hover
+      {
+        cursor: pointer;
+        background-color: #225252;,
+        box-shadow: 5px 5px 5px cyan;
+        color: black;
+      }
+       input[type="text"]:focus,input[type="password"]:focus{
+        outline: none;
+        background-color: lightcyan;
+       }
+     
+.break{
+    clear: both;
+}
+.card{
+        
+        border: 2px solid gray;
+        margin-top: 10px;
+        width: 200px;
+        padding: 5px;
+        border-radius: 5px;
+        position: absolute;
+        right: 20px;
+       }
+       .card:hover{
+        cursor: pointer;
+        box-shadow: 5px 5px  5px 5px blue;
+       }
+       .card_header img{
+                 border-radius: 7px;
+       }
+       
+        
+    </style>
+    
+</head>
+<body>
+
+<div class="form_section">
+    <h3>Sign In Here</h3>
+    <br>
+   <form name="form1" method="post" action="Login">
+    <input type="text" name="username" placeholder="enter username">
+    <br>
+    <input type="password" name="password" placeholder="enter password">
+    <br>
+    <input type="submit" value="submit">
+    <br>
+     <input type="reset" value="Reset">
+</form>
+</div>
+<div class="card">
+
+    <div class="card_header">
+
+    <a href="User_Registration.html"><img src="https://ruffacademywi.com/wp-content/uploads/2018/01/click-here-to-register-button.png" height="100px" width="200px"></a>
+
+        
+    </div>
+ <div class="break">
+            
+    </div>
+
+</body>
+</html>

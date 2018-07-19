@@ -1,0 +1,233 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.main-header{
+    background-image: url("https://www.freewebheaders.com/wordpress/wp-content/gallery/high-tech-designs/hi-tech-concepts-on-blue-background-header.jpg");
+    background-size: cover;
+    color: red;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    }
+    .main-nav{
+     background-color: #333333;
+}
+.main-nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin:0;
+    overflow: hidden;
+
+}
+.main-nav ul li{
+    float: left;
+}
+.main-nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding:14px 20px;
+    display: inline-block; 
+}
+.main-nav ul li a:hover{
+    background-color: #778166;
+    border-radius: 5px;
+}
+.main-nav ul li a.active{
+    background-color: #517925;
+    border-radius: 5px;
+
+}
+.latest-news{
+    background-color: #517925;
+    color: white;
+    margin-top: 5px;
+    animation-name: latest-news;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+
+
+@keyframes latest-news{
+    0%, 50% , 100%{
+        background-color: #2c8d3a;
+    }
+    25% , 75%{
+        background-color: #517925
+    }
+}
+.latest-news p{
+    font-size: 25px;
+    margin:0;
+    padding: 5px;
+    animation-name: flash-name;
+    animation-duration: 14s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+@keyframes flash-name{
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+.contact-section{
+    width: 1100px;
+    height: auto;
+    margin: auto;
+    text-align: center;
+}
+.contact-section h2{
+    color: seagreen;
+    font-size: 45px;
+    margin-bottom: 0;
+}
+.contact-section p{
+    font-size: 20px;
+    margin-top: 0;
+}
+input[type="text"],input[type="email"]{
+    height: 45px;
+    margin: 7px;
+    font-size: 18px;
+    text-align: center;
+    border: 2px solid seagreen;
+    border-radius: 7px;
+}
+input[type="text"]:focus,input[type="email"]:focus{
+    outline: none;
+    background-color: lightgreen;
+
+    }
+    textarea{
+        margin:7px;
+        font-size: 20px;
+        text-align: center;
+        border: 2px solid seagreen;
+        border-radius: 7px;
+        width: 430px;
+        height: 200px;
+
+    }
+    textarea:focus{
+        outline: none;
+        background-color: lightgreen;
+    }
+    input[type="submit"]{
+        background-color: seagreen;
+        color: white;
+        margin: 10px;
+        padding: 14px 20px;
+        border: none;
+        font-size: 20px;
+        border-radius: 5px;
+    }
+.main-footer{
+    background-color: #333333;
+    color: white;
+    padding:10px;
+    text-align: center;
+    position:relative;
+    width:100%;
+    bottom:0px;
+}
+.main-footer a{
+    color: orange;
+}
+.about-section{
+    width: 1100px;
+    height: auto;
+    margin: auto;
+
+}
+.about-div{
+    padding: 5px;
+}
+.about-div h3{
+    color: seagreen;
+    font-size: 30px;
+}
+.about-div p{
+    font-size: 15px;
+}
+.aside1{
+	overflow: hidden;
+}
+aside{
+               font-family: "Helvetica Neve",sans-serif;
+               background-color: lightgreen;
+               float: left;
+               width: 200px;
+               text-align: center;
+               padding: 10px;
+               border-radius: 20px;
+               box-shadow: 5px 5px 5px seagreen;
+               overflow: hidden;
+
+        }
+        aside ul{
+            list-style-type: none; /*to remove dots*/
+            padding: 0;
+            margin:0;
+
+
+        }
+        aside ul li a{
+            text-decoration: none;
+            color: black;
+            padding: 18px 20px;
+            display: block;
+         }
+         
+         .gallery-section{
+    text-align: center;
+    margin-top: 20px;
+    color: red;
+
+
+}
+.gallery-div{
+    border:2px solid grey;
+
+    margin: 7px;
+    width: 300px;
+
+    padding: 3px;
+    float: left;
+    
+    border-radius: 7px;
+}
+.gallery-div:hover{
+    box-shadow: 5px 5px 5px seagreen;
+}
+.gallery-div img{
+    width: 300px;
+    height: 300px;
+
+}
+.break{
+    clear: both;
+}
+.home-news{
+    width: 1100px;
+    height: 500;
+    margin: auto;
+}
+.home-div{
+    border: 2px solid gray;
+    float: left;
+    width: 330px;
+    height: 590px;
+    text-align: center;
+    margin: 5px;
+    border-radius: 10px;
+    transition: width 0.5s .height 0.5s;
+}
+{
+	text-align: right;
+}
